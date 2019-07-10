@@ -1,0 +1,36 @@
+TestNG -- unit test framework
+TDD -- Test Driven Development
+
+purpose -- design test cases in a systematic way
+--HTML reports
+-- differents annotations
+-- priorities / sequence
+-- dependency
+-- data provider
+
+testing -- open source, free
+JAR file
+
+--Java unit testing framework
+
+
+/*
+	 @BeforeSuite -- Setup property for Chrome
+	 @BeforeTest -- launch Chrome browser
+	 @BeforeClass -- Login to app
+	 ***************************************
+	 @BeforeMethod -- Enter URL
+	 @Test -- Google Logo Test
+	 @AfterMethod-- Logout from app
+ 	 ***************************************	
+	 @BeforeMethod -- Enter URL
+	 @Test -- Google Title Test
+	 @AfterMethod-- Logout from app
+ 	 ***************************************	
+	 @BeforeMethod -- Enter URL
+	 @Test -- Search Test
+	 @AfterMethod-- Logout from app
+ 	 **************************************	
+	 @AfterClass -- Close Browser
+	 @AfterTest -- DeleteAllCookies
+*/	

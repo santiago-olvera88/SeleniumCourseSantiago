@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite TestNG">
+  <test thread-count="5" name="Test TestNG">
+    <classes>
+      <class name="com.testng.ExceptionTimeOutTest"/>
+      <class name="com.testng.TestNgFeatures"/>
+      <class name="com.testng.FirstTestCase"/>
+      <class name="com.testng.CatchingExceptiontestNG"/>
+      <class name="com.testng.InvocationCountTest"/>
+      <class name="com.testng.TestNGBasics"/>
+      <class name="com.testng.GoogleTest"/>
+      <class name="com.testng.GoogleTitleTest"/>
+    </classes>
+  </test> <!-- Test TestNG -->
+</suite> <!-- Suite TestNG -->

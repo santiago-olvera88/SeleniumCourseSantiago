@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Session Suite]">
+  <test thread-count="5" name="Different Testing Feature Test(failed)">
+    <parameter name="mail" value="coapan23@gmail.com"/>
+    <parameter name="pass" value="eliseos88*O"/>
+    <parameter name="Url" value="https://www.google.com/intl/es/gmail/about/"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="gmailLogin"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Different Testing Feature Test(failed) -->
+</suite> <!-- Failed suite [Test Session Suite] -->

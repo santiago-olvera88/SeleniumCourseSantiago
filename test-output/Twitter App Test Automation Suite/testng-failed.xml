@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Twitter App Test Automation Suite]">
+  <test thread-count="5" name="witter App Test(failed)">
+    <parameter name="mail" value="coapan_17@hotmail.com"/>
+    <parameter name="pass" value="eliseos88*OO"/>
+    <parameter name="url" value="https://outlook.live.com/owa/"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="gmailLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- witter App Test(failed) -->
+</suite> <!-- Failed suite [Twitter App Test Automation Suite] -->

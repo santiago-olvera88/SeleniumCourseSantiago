@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail Parameter Session Suite]">
+  <test thread-count="5" name="Gmail Parameter Feature Test(failed)">
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="gmailLogin"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Gmail Parameter Feature Test(failed) -->
+</suite> <!-- Failed suite [Gmail Parameter Session Suite] -->

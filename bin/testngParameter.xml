@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Twitter App Test Automation Suite">
+  <test name="witter App Test">
+  
+  	<parameter name="browser" value="firefox" />
+  	<parameter name="url" value="https://outlook.live.com/owa/" />
+  	<parameter name="mail" value="coapan_17@hotmail.com" />
+  	<parameter name="pass" value="eliseos88*OO" />
+  
+    <classes>
+    
+      <class name="com.parameters.ParameterTest"/>
+    
+    </classes>
+    
+  </test>
+</suite>
